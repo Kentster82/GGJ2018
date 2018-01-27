@@ -13,33 +13,35 @@ consoles
     manual/documentation
 
 modal interface:
-    you can't see any of the other screens in any mode
-
-    walking around your ship : you can see where you are in the ship interior
-
-    helm : you can see your surroundings
-
-    nav console : you can see where you are
-        gives you an arrow, that's it
-        view your destination goal
-        press a button and it slowly expands from your point
-
-    shields console : look at your health
-        your health bar
-        you can turn on a protective shield, but you have to hold a button the whole time
-        panic "kill engine" button, stops you motionless in space
-
-    engineering console : repairing systems
-        shields-on button
-            
-
-    airlock console : push the letter out the airlock once you're at your destination
-       you have to get close to the planet without crashing
-       shove the letter out the spaceship towards the planet
-
-    manual/documentation console : read the instructions for the game
-        outdated, bad docs
-        how the player learns
+    Navigation:
+	-Shows you your location on the map
+        -Shows you your destination on the map
+        -Shows you your accurate trajectory on the map
+        -Shows you obstacles on the map
+	-Possibly requires a button press to do a radar "ping"
+    Helm:
+	-Shows a much more zoomed-in view of your ship and nearby obstacles, along with a simple trajectory
+	-Spedometer
+	-Steering wheel rotates the ship
+	-Throttle changes thrust modifier between -1 and 1
+    Status:
+	-Shows a light for each station, red if broken
+	-Shows health bar
+    Engineering:
+	-Shows a button for each station, press to repair (or break, if it was undamaged)
+    Shield:
+	-Press button to deploy shield, makes you impervious
+	-Bouncing into things w/ shields applies physics
+    Emergency Brake:
+	-Immediately brings ship to a stop
+    Transmitter:
+	-Actually an airlock
+	-Drag pamphlets from the pile in the corner to the airlock port
+	-Pamphlets come out from one (fixed) side of the ship
+	-Must be close enough to the planet
+    User Manual:
+	-Displays information about all the different modules
+	-Crappy quality manual
 
 simple random generation, infinite scrolling space in any direction
     fixed 2d space generated on startup
