@@ -8,6 +8,12 @@ public class Helm:MonoBehaviour
     public int nearZero;
 
     private Vector3 initialMousePos;
+    private Text speedometer;
+
+    public void Awake()
+    {
+        speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
+    }
 
     public void SetThrottle(Slider slider)
     {
@@ -18,7 +24,9 @@ public class Helm:MonoBehaviour
             slider.value = 0;
         }
         //Get the new setting and report it to the ship class
-        Debug.Log("Throttle value:" + slider.value);
+        //Debug.Log("Throttle value:" + slider.value);
+
+        SetSpeedometer(Mathf.RoundToInt(Mathf.Abs(slider.value) * 10));
     }
 
     public void ReleaseWheel(Image image)
@@ -55,5 +63,10 @@ public class Helm:MonoBehaviour
         initialMousePos = Input.mousePosition;
         Debug.Log("Grabbed at " + initialMousePos);
 
+    }
+
+    public void SetSpeedometer(int speed)
+    {
+        speedometer.text = speed.ToString();
     }
 }

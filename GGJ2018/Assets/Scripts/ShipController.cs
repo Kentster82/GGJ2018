@@ -41,15 +41,37 @@ public class ShipController : MonoBehaviour {
 
     void Update ()
     {
+        // dummy code for testing eBrake
 	    if(Input.GetButton("Jump"))
         {
             StartCoroutine("eBrake");
         }
+
+        // dummy code for testing steering
+        shipTransform.Rotate(0, 0, -Input.GetAxis("Horizontal"));
+
+        //dummy code for testing throttle
+        throttle = Input.GetAxis("Vertical");
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.collider.CompareTag("asteroid"))
+        {
+            damage(collision.rigidbody.mass);
+        }
+    }
 
     void damage(float damage)
     {
-        hull -= (damage - shieldAbsorb);
+        if(shieldActive)
+        {
+            hull -= (damage - shieldAbsorb);
+        }
+        else
+        {
+            hull -= damage;
+        }
         if(hull <= 0)
         {
             Debug.Log("Ded");
