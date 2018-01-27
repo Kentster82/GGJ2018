@@ -8,7 +8,9 @@ consoles
     helm
     navigation
     shields
+    engineering
     airlock
+    manual/documentation
 
 modal interface:
     you can't see any of the other screens in any mode
@@ -25,16 +27,25 @@ modal interface:
     shields console : look at your health
         your health bar
         you can turn on a protective shield, but you have to hold a button the whole time
+        panic "kill engine" button, stops you motionless in space
+
+    engineering console : repairing systems
+        shields-on button
+            
 
     airlock console : push the letter out the airlock once you're at your destination
        you have to get close to the planet without crashing
        shove the letter out the spaceship towards the planet
 
+    manual/documentation console : read the instructions for the game
+        outdated, bad docs
+        how the player learns
+
 simple random generation, infinite scrolling space in any direction
     fixed 2d space generated on startup
         every time you get to an objective, regenerate the entire space
 
-controls:
+ontrols:
     interior:
         you hold the mouse and your character walks toward that
     consoles:
@@ -52,3 +63,9 @@ obstacles and the 2 or more consoles you have to juggle
     pirates: asteroids that shoot at you
 
     if you go outside the space you are penalized
+
+    asteroid dust fields
+        you have to keep the shields button pressed while passing through or else you lose health
+
+space physics
+    no friction
