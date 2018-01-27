@@ -10,11 +10,12 @@ public class NavigationConsole : MonoBehaviour {
 
     public float interactDistance = 2f;
     // Use this for initialization
-    void Start ()
+    void Awake ()
     {
         navCamera = GameObject.Find("navCamera").GetComponent<Camera>();
         UIPanel = GameObject.Find("NavigationPanel");
         player = GameObject.Find("Player");
+
         UIPanel.SetActive(false);
     }
 

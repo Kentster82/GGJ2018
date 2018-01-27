@@ -11,7 +11,7 @@ public class ShieldConsole : MonoBehaviour
     public float interactDistance = 2f;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         UIPanel = GameObject.Find("ShieldPanel");
         player = GameObject.Find("Player");

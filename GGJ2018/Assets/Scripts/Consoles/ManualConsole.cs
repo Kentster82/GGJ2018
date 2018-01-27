@@ -9,7 +9,7 @@ public class ManualConsole : MonoBehaviour
 
     public float interactDistance = 2f;
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         UIPanel = GameObject.Find("ManualPanel");
         player = GameObject.Find("Player");

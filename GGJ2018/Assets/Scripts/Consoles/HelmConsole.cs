@@ -11,7 +11,7 @@ public class HelmConsole : MonoBehaviour
     public float interactDistance = 2f;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         helmCamera = GameObject.Find("helmCamera").GetComponent<Camera>();
         UIPanel = GameObject.Find("HelmPanel");
@@ -26,6 +26,9 @@ public class HelmConsole : MonoBehaviour
             UIPanel.SetActive(true);
             Camera.main.enabled = false;
             helmCamera.enabled = true;
+
+            player.is_valid = false;
+            //
         }
     }
 
