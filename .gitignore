@@ -45,3 +45,6 @@ sysinfo.txt
 *.bak
 *mptm*AutoSave*
 *.RPP-bak
+
+# Audio raw stems (they're really big WAVs)
+Assets/Sounds/Raw_Stems/
