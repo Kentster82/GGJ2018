@@ -14,8 +14,10 @@ public class ShipController : MonoBehaviour {
     // Whether or not these stations are currently disabled
     public bool helmStationActive;
     public bool navStationActive;
+    public bool statusStationActive;
     public bool airlockStationActive;
     public bool manualStationActive;
+    public bool eBrakeStationActive;
     public bool shieldStationActive;
 
     // Whether or not the ship's shield is currently active
