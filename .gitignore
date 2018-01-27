@@ -47,4 +47,4 @@ sysinfo.txt
 *.RPP-bak
 
 # Audio raw stems (they're really big WAVs)
-Assets/Sounds/Raw_Stems/
+Raw_Stems/
