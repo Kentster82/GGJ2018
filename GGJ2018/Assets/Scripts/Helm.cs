@@ -18,24 +18,26 @@ public class Helm:MonoBehaviour
 
     public void SetThrottle(Slider slider)
     {
-        //Zeroes out the throttle if the 
-        //Debug.Log("Slider value:" + slider.value);
+        //Zeroes out the throttle if it was set near zero
         if (slider.value < nearZero && slider.value > -nearZero)
         {
             slider.value = 0;
         }
-        //Get the new setting and report it to the ship class
-        //Debug.Log("Throttle value:" + slider.value);
+
+        //Get the new setting and report it to ShipController
+        //ShipControllerobject.throttle = slider.value / 10;
 
         SetSpeedometer(Mathf.RoundToInt(Mathf.Abs(slider.value) * 10));
     }
 
     public void ReleaseWheel(Image image)
     {
-        Debug.Log(wheelNearZero + " " + image.transform.rotation.eulerAngles.z);
+        //Snaps the wheel to center if it's close enough to zero
         if (image.transform.rotation.eulerAngles.z < wheelNearZero || image.transform.rotation.eulerAngles.z > 360-wheelNearZero)
         {
             image.transform.rotation = Quaternion.identity;
+            //Get the new setting and report it to ShipController
+            //shipTransform.rotation = Quaternion.identity;
         }
     }
 
@@ -44,8 +46,6 @@ public class Helm:MonoBehaviour
         Vector3 currMousePos = Input.mousePosition;
 
         float angle = Vector2.Angle(initialMousePos-image.transform.position, currMousePos-image.transform.position);
-        //float yAxis = Input.mousePosition.y - initialMousePos.y;
-        //Debug.Log(xAxis + " " + yAxis);
 
         Vector3 rotationVec;
 
@@ -59,6 +59,8 @@ public class Helm:MonoBehaviour
         }
 
         image.transform.Rotate(rotationVec);
+        //Get the new setting and report it to ShipController
+        //shipTransform.rotation = rotationVec???
 
         initialMousePos = currMousePos;
     }
@@ -66,7 +68,6 @@ public class Helm:MonoBehaviour
     public void GrabWheel()
     {
         initialMousePos = Input.mousePosition;
-        //Debug.Log("Grabbed at " + initialMousePos);
     }
 
     public void SetSpeedometer(int speed)
