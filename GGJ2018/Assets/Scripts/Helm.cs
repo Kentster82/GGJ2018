@@ -8,11 +8,13 @@ public class Helm:MonoBehaviour
     public int nearZero;
     public int wheelNearZero;
 
+    private GameObject ship;
     private Vector3 initialMousePos;
     private Text speedometer;
 
     public void Awake()
     {
+        ship = GameObject.Find("Ship");
         speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
     }
 
@@ -24,8 +26,9 @@ public class Helm:MonoBehaviour
             slider.value = 0;
         }
 
-        //Get the new setting and report it to ShipController
-        //ShipControllerobject.throttle = slider.value / 10;
+        //Get the new setting and report it to ShipController        
+        ship.GetComponent<ShipController>().throttle = slider.value / 10;
+        //Debug.Log(ship.GetComponent<ShipController>().throttle + " " + slider.value);
 
         SetSpeedometer(Mathf.RoundToInt(Mathf.Abs(slider.value) * 10));
     }
@@ -38,6 +41,7 @@ public class Helm:MonoBehaviour
             image.transform.rotation = Quaternion.identity;
             //Get the new setting and report it to ShipController
             //shipTransform.rotation = Quaternion.identity;
+            ship.GetComponent<ShipController>().shipTransform.rotation = Quaternion.identity;
         }
     }
 
@@ -61,6 +65,7 @@ public class Helm:MonoBehaviour
         image.transform.Rotate(rotationVec);
         //Get the new setting and report it to ShipController
         //shipTransform.rotation = rotationVec???
+        ship.GetComponent<ShipController>().shipTransform.rotation = image.transform.rotation;
 
         initialMousePos = currMousePos;
     }
@@ -72,6 +77,6 @@ public class Helm:MonoBehaviour
 
     public void SetSpeedometer(int speed)
     {
-        speedometer.text = speed.ToString();
+        speedometer.text = speed.ToString("000");
     }
 }

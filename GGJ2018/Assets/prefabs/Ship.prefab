@@ -89,17 +89,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c54a930482a8b45a524fd946ee512e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throttle: 0
-  hull: 0
-  shieldAbsorb: 0
-  helmStationActive: 0
-  navStationActive: 0
-  airlockStationActive: 0
-  manualStationActive: 0
-  shieldStationActive: 0
-  shieldActive: 0
-  thrust: 5
-  shipTransform: {fileID: 0}
 --- !u!212 &212586662189296500
 SpriteRenderer:
   m_ObjectHideFlags: 1
