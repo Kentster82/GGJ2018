@@ -1,0 +1,54 @@
+spaceteam for 3 people but you have to play it with 1 person
+
+you are a galactic mail carrier and the mail service is broke and understaffed
+you have to deliver mail
+space messenger pigeons
+
+consoles
+    helm
+    navigation
+    shields
+    airlock
+
+modal interface:
+    you can't see any of the other screens in any mode
+
+    walking around your ship : you can see where you are in the ship interior
+
+    helm : you can see your surroundings
+
+    nav console : you can see where you are
+        gives you an arrow, that's it
+        view your destination goal
+        press a button and it slowly expands from your point
+
+    shields console : look at your health
+        your health bar
+        you can turn on a protective shield, but you have to hold a button the whole time
+
+    airlock console : push the letter out the airlock once you're at your destination
+       you have to get close to the planet without crashing
+       shove the letter out the spaceship towards the planet
+
+simple random generation, infinite scrolling space in any direction
+    fixed 2d space generated on startup
+        every time you get to an objective, regenerate the entire space
+
+controls:
+    interior:
+        you hold the mouse and your character walks toward that
+    consoles:
+        
+
+obstacles and the 2 or more consoles you have to juggle
+    static and moving asteroids
+        helm
+        shields/status
+            repair
+
+        they shake your screen and make a muted thunk
+            if it's smaller than X, it makes screen shake and thunk but no health loss
+
+    pirates: asteroids that shoot at you
+
+    if you go outside the space you are penalized
