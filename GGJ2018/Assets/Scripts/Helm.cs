@@ -16,6 +16,8 @@ public class Helm:MonoBehaviour
     {
         ship = GameObject.Find("Ship");
         speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
+        GameObject helm = GameObject.Find("HelmPanel");
+        helm.SetActive(false);
     }
 
     public void SetThrottle(Slider slider)

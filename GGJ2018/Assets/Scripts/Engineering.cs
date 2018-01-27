@@ -9,6 +9,8 @@ public class Engineering : MonoBehaviour
     public void Awake()
     {
         ship = GameObject.Find("Ship");
+        GameObject eng = GameObject.Find("EngineeringPanel");
+        eng.SetActive(false);
     }
 
     public void ReverseRepairStatus(int button)
