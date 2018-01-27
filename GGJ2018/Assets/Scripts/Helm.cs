@@ -7,6 +7,8 @@ public class Helm:MonoBehaviour
 {
     public int nearZero;
 
+    private Vector3 initialMousePos;
+
     public void SetThrottle(Slider slider)
     {
         //Zeroes out the throttle if the 
@@ -21,13 +23,37 @@ public class Helm:MonoBehaviour
 
     public void ReleaseWheel(Image image)
     {
-
+        image.transform.rotation = Quaternion.identity;
     }
 
     public void TurnWheel(Image image)
     {
-        float xAxis = Input.mousePosition.x - image.transform.position.x;
-        float yAxis = Input.mousePosition.y - image.transform.position.y;
-        Debug.Log(xAxis + " " + yAxis);
+        Vector3 currMousePos = Input.mousePosition;
+
+        float angle = Vector2.Angle(initialMousePos-image.transform.position, currMousePos-image.transform.position);
+        //float yAxis = Input.mousePosition.y - initialMousePos.y;
+        //Debug.Log(xAxis + " " + yAxis);
+
+        Vector3 rotationVec;
+
+        if (Vector3.Cross(initialMousePos - image.transform.position, currMousePos - image.transform.position).z < 0)
+        {
+            rotationVec = new Vector3(0F, 0F, -angle);
+        }
+        else
+        {
+            rotationVec = new Vector3(0F, 0F, angle);
+        }
+
+        image.transform.Rotate(rotationVec);
+
+        initialMousePos = currMousePos;
+    }
+
+    public void GrabWheel()
+    {
+        initialMousePos = Input.mousePosition;
+        Debug.Log("Grabbed at " + initialMousePos);
+
     }
 }
