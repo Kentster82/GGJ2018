@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Helm:MonoBehaviour
 {
     public int nearZero;
+    public int wheelNearZero;
 
     private Vector3 initialMousePos;
     private Text speedometer;
@@ -31,7 +32,11 @@ public class Helm:MonoBehaviour
 
     public void ReleaseWheel(Image image)
     {
-        image.transform.rotation = Quaternion.identity;
+        Debug.Log(wheelNearZero + " " + image.transform.rotation.eulerAngles.z);
+        if (image.transform.rotation.eulerAngles.z < wheelNearZero || image.transform.rotation.eulerAngles.z > 360-wheelNearZero)
+        {
+            image.transform.rotation = Quaternion.identity;
+        }
     }
 
     public void TurnWheel(Image image)
@@ -61,8 +66,7 @@ public class Helm:MonoBehaviour
     public void GrabWheel()
     {
         initialMousePos = Input.mousePosition;
-        Debug.Log("Grabbed at " + initialMousePos);
-
+        //Debug.Log("Grabbed at " + initialMousePos);
     }
 
     public void SetSpeedometer(int speed)

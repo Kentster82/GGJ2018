@@ -417,6 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nearZero: 2
+  wheelNearZero: 25
 --- !u!4 &1118569366
 Transform:
   m_ObjectHideFlags: 0
