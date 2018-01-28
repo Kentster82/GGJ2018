@@ -48,3 +48,7 @@ sysinfo.txt
 
 # Audio raw stems (they're really big WAVs)
 Raw_Stems/
+
+# Wwise
+BGM1_Dynamic/Originals/SFX/*/*.akd
+BGM1_Dynamic/.cache/
