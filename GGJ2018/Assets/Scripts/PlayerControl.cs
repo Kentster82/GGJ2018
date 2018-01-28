@@ -7,7 +7,7 @@ public class PlayerControl : MonoBehaviour {
     public float speed = 0;
     Vector3 mousePos;
     Camera c;
-    bool is_valid;
+    public bool is_valid;
 	void Start () {
         mousePos = new Vector3();
         c = Camera.main;
