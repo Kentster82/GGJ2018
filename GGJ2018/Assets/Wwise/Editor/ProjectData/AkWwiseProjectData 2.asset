@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35aa660afadc8ed4e888a972a43ad9a2, type: 3}
+  m_Name: AkWwiseProjectData 2
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}'
+    m_lastTimePsrt1: 2053153337
+    m_lastTimePart2: -1999280662
+    List:
+    - Name: AirlockMusicStart
+      Path: Default Work Unit\AirlockMusicStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AirlockMusicStart
+        ObjectType: 3
+      ID: -661106603
+      Guid: 6c2907ccffb1064fa5a3cc8fe9fc9ff4
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: BreakAirlock
+      Path: Default Work Unit\BreakAirlock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BreakAirlock
+        ObjectType: 3
+      ID: -1054031589
+      Guid: 6956f02a6bfcc44d80bbbb54e4bd5d6f
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: BreakEngines
+      Path: Default Work Unit\BreakEngines
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BreakEngines
+        ObjectType: 3
+      ID: 1745692283
+      Guid: bd7c5a9c8295b940882f8a482a5e7de9
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: BreakHelm
+      Path: Default Work Unit\BreakHelm
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BreakHelm
+        ObjectType: 3
+      ID: -632551222
+      Guid: 431e77918679e54b8339faa2d135b5cb
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: BreakNavigation
+      Path: Default Work Unit\BreakNavigation
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BreakNavigation
+        ObjectType: 3
+      ID: 1682081864
+      Guid: cff06a24f95d244898750e705dbb9509
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: BreakShields
+      Path: Default Work Unit\BreakShields
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BreakShields
+        ObjectType: 3
+      ID: -337584932
+      Guid: cda5f67d72766b45a7092468181a46be
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: ConsoleEnter
+      Path: Default Work Unit\ConsoleEnter
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ConsoleEnter
+        ObjectType: 3
+      ID: -916267466
+      Guid: 8dfa3bd017d0104f872cc53c0c006baa
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: ConsoleExit
+      Path: Default Work Unit\ConsoleExit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ConsoleExit
+        ObjectType: 3
+      ID: -970351812
+      Guid: 479bb784ecde284c8e71efb9bfc2cb5a
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: EnginesMusicStart
+      Path: Default Work Unit\EnginesMusicStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnginesMusicStart
+        ObjectType: 3
+      ID: 682262605
+      Guid: 2e172cc4141a1d469b5d908ed2e9170e
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: FixAirlock
+      Path: Default Work Unit\FixAirlock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FixAirlock
+        ObjectType: 3
+      ID: -803213517
+      Guid: 5fe2d1846c05414fa532354e76f9d7ca
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: FixEngines
+      Path: Default Work Unit\FixEngines
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FixEngines
+        ObjectType: 3
+      ID: -683305469
+      Guid: 1e1347f92f80db4b9461cf157ee859c6
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: FixHelm
+      Path: Default Work Unit\FixHelm
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FixHelm
+        ObjectType: 3
+      ID: -680801694
+      Guid: 32b5b513f1b4bf40be8bb7aa844c058e
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: FixNavigation
+      Path: Default Work Unit\FixNavigation
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FixNavigation
+        ObjectType: 3
+      ID: 537538816
+      Guid: 324da83138b2e74b9854c64657ada110
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: FixShields
+      Path: Default Work Unit\FixShields
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FixShields
+        ObjectType: 3
+      ID: -1061341660
+      Guid: 2cacf30d9af51c449ecfccdbe877848b
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: HelmMusicStart
+      Path: Default Work Unit\HelmMusicStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HelmMusicStart
+        ObjectType: 3
+      ID: 1651135938
+      Guid: 9053154985ade24b97fa99594fda3b41
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: NavigationMusicStart
+      Path: Default Work Unit\NavigationMusicStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NavigationMusicStart
+        ObjectType: 3
+      ID: -550767300
+      Guid: d587c95f5519db48b16f86a61cd56de4
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: PCStartMoving
+      Path: Default Work Unit\PCStartMoving
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PCStartMoving
+        ObjectType: 3
+      ID: 178998712
+      Guid: 3bf66818b3258a42828bc59364fc9c2b
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: PCStopMoving
+      Path: Default Work Unit\PCStopMoving
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PCStopMoving
+        ObjectType: 3
+      ID: -862353608
+      Guid: 62349505315f6b4e8b2b5e6a41735ccb
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: ShieldsMusicStart
+      Path: Default Work Unit\ShieldsMusicStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ShieldsMusicStart
+        ObjectType: 3
+      ID: 707167398
+      Guid: a3fc44f56238174983816761fab7aeee
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: ShipHit
+      Path: Default Work Unit\ShipHit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ShipHit
+        ObjectType: 3
+      ID: -2120451058
+      Guid: 4096990e2872644c868a12768d7de90e
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FA57209E-5049-423B-B508-E5C5708360BC}'
+    m_lastTimePsrt1: 2056915857
+    m_lastTimePart2: -1999280662
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}'
+    m_lastTimePsrt1: -1821939328
+    m_lastTimePart2: -1999280662
+    List:
+    - Name: AirlockState
+      Path: Default Work Unit\AirlockState
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AirlockState
+        ObjectType: 9
+      ID: -601420191
+      Guid: ea7647d5d7c338448f5edced10e097f1
+      values:
+      - Broken
+      - None
+      - Working
+      ValueIcons:
+      - ElementName: Broken
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Working
+        ObjectType: 8
+      valueIDs: 924bc80ddb3ba32c52adc976
+      ValueGuids:
+      - bytes: 70b70f0982f2ec4c88d98b818accf8a9
+      - bytes: 1b325f5fcda58c4599ac3e7cfc00e450
+      - bytes: f16b1369a729ca47adba3e79ae110d03
+    - Name: EnginesState
+      Path: Default Work Unit\EnginesState
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnginesState
+        ObjectType: 9
+      ID: -1114521079
+      Guid: 48388b85f71b244ea4ba831f5282dd78
+      values:
+      - Broken
+      - None
+      - Working
+      ValueIcons:
+      - ElementName: Broken
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Working
+        ObjectType: 8
+      valueIDs: 924bc80ddb3ba32c52adc976
+      ValueGuids:
+      - bytes: 7b9cd2f3be3fa44cb0b9d819b4590980
+      - bytes: c0db0af3b840004488097782dde855b5
+      - bytes: 7fd1239f938e9f4b9dcd1c679be9f316
+    - Name: HelmState
+      Path: Default Work Unit\HelmState
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HelmState
+        ObjectType: 9
+      ID: 908130836
+      Guid: 04f34d97f46aa3479d8155ae81acb5f5
+      values:
+      - Broken
+      - None
+      - Working
+      ValueIcons:
+      - ElementName: Broken
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Working
+        ObjectType: 8
+      valueIDs: 924bc80ddb3ba32c52adc976
+      ValueGuids:
+      - bytes: c8d44bdb74f93d4196ce5ae4556aea51
+      - bytes: ee2ea9da18f973419888c9deb2ae9aa2
+      - bytes: 398507ad3e956d48875a32842d76863a
+    - Name: NavigationState
+      Path: Default Work Unit\NavigationState
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NavigationState
+        ObjectType: 9
+      ID: -868249562
+      Guid: 8574eeedc43c9144944039b16bc27041
+      values:
+      - Broken
+      - None
+      - Working
+      ValueIcons:
+      - ElementName: Broken
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Working
+        ObjectType: 8
+      valueIDs: 924bc80ddb3ba32c52adc976
+      ValueGuids:
+      - bytes: ba01aa11e8365242bc4ffeff0cf3ae61
+      - bytes: d2d905d1a6e30243bf6f00a2c175e077
+      - bytes: cc79bcafb0d7af40b4370cdc76098ed2
+    - Name: ShieldsState
+      Path: Default Work Unit\ShieldsState
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ShieldsState
+        ObjectType: 9
+      ID: -1925113624
+      Guid: a9efe072bbb8014ea5c8ea32c42cf3f2
+      values:
+      - Broken
+      - None
+      - Working
+      ValueIcons:
+      - ElementName: Broken
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Working
+        ObjectType: 8
+      valueIDs: 924bc80ddb3ba32c52adc976
+      ValueGuids:
+      - bytes: 5b000dbb600ee74b827b06a53257ac44
+      - bytes: 8a58ed96ae395f44bd9374f55abc3bd8
+      - bytes: 2bc453276a97d644a46d30f7b931edd3
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E089643D-6F69-4F41-949C-FC999BC26B45}'
+    m_lastTimePsrt1: -1818216591
+    m_lastTimePart2: -1999280662
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{0B251FBD-CD40-4C21-A268-FD3338DC1417}'
+    m_lastTimePsrt1: -1824596076
+    m_lastTimePart2: -1999280662
+    List:
+    - Name: BGM1
+      Path: Default Work Unit\BGM1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BGM1
+        ObjectType: 7
+      ID: 1189781958
+      Guid: 17ad28e4b7f6844dabe1cb51e99fb1fd
+    - Name: SoundEffects
+      Path: Default Work Unit\SoundEffects
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundEffects
+        ObjectType: 7
+      ID: -396883992
+      Guid: 781300ed7deb464bbc35bf0ee97eebdf
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{A9456328-D007-4C43-8D9C-729905CAB2A7}'
+    m_lastTimePsrt1: 2052082650
+    m_lastTimePart2: -1999280662
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{8211FA40-FE4C-4F43-A98E-0834C8920150}'
+    m_lastTimePsrt1: -1809819097
+    m_lastTimePart2: -1999280662
+    List: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{3CADAD24-1CB6-4CD5-BDB1-44158067097B}'
+    m_lastTimePsrt1: -1806701118
+    m_lastTimePart2: -1999280662
+    List: []
+  ExpandedItems: []
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4
