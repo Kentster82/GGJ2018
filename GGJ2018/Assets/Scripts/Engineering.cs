@@ -36,6 +36,12 @@ public class Engineering : MonoBehaviour
             case 4:
                 ship.GetComponent<ShipController>().shieldStationActive = !ship.GetComponent<ShipController>().shieldStationActive;
                 break;
+            case 5:
+                ship.GetComponent<ShipController>().eBrakeStationActive = !ship.GetComponent<ShipController>().eBrakeStationActive;
+                break;
+            case 6:
+                ship.GetComponent<ShipController>().statusStationActive = !ship.GetComponent<ShipController>().statusStationActive;
+                break;
             default:
                 break;
         }
