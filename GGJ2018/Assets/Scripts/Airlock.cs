@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class Airlock : MonoBehaviour
 {
+    public GameObject airlock;
+
+    public void Awake()
+    {
+        airlock = GameObject.Find("AirlockPanel");
+    }
+
+    public void Start()
+    {
+        airlock.SetActive(false);
+    }
+
     public void OpenAirlock()
     {
         Debug.Log("Airlock opened.");
