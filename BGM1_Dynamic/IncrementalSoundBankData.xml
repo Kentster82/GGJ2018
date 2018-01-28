@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{B20761FC-B2C3-4B29-B9E7-795A1B23F578}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="BGM1" Hash="1481529563" Timestamp="1517125590"/>
+				<File Name="Init" Hash="3954666164" Timestamp="1517125591"/>
+				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125590"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1310626818" Timestamp="1517125591"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{210F01F2-CCE9-4E73-B3F7-178B8B8D6DB8}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="BGM1" Hash="1481529563" Timestamp="1517125593"/>
+				<File Name="Init" Hash="2844690623" Timestamp="1517125594"/>
+				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125593"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2732982232" Timestamp="1517125594"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{8AB9CABA-C01F-4F6E-B367-E6373504BEA3}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="BGM1" Hash="1481529563" Timestamp="1517125585"/>
+				<File Name="Init" Hash="700395651" Timestamp="1517125585"/>
+				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125585"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="227597797" Timestamp="1517125585"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

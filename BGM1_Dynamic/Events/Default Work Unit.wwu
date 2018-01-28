@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="HelmMusicStart" ID="{49155390-AD85-4BE2-97FA-99594FDA3B41}">
+					<ChildrenList>
+						<Action Name="" ID="{73DE3B4C-B2B9-4CC2-B01C-F9C93E05259A}" ShortID="738820458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM1_stems_helm" ID="{CFC432E9-91A0-49A7-941E-BCE4C7D84BA3}" WorkUnitID="{A487FD55-4285-4EF2-A4D4-F61B31354230}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AirlockMusicStart" ID="{CC07296C-B1FF-4F06-A5A3-CC8FE9FC9FF4}">
+					<ChildrenList>
+						<Action Name="" ID="{DEEB36D8-4BC9-4E33-841F-750BE67ADE9B}" ShortID="906763000">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM1_stems_airlock" ID="{6234BF9F-F205-4C66-8EDE-CD712EED3C19}" WorkUnitID="{A487FD55-4285-4EF2-A4D4-F61B31354230}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnginesMusicStart" ID="{C42C172E-1A14-461D-9B5D-908ED2E9170E}">
+					<ChildrenList>
+						<Action Name="" ID="{987B9518-78B3-4787-98A9-BC465BBE1116}" ShortID="165823940">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM1_stems_engines" ID="{8DB38874-6773-40EE-AE15-0E135EEC41E6}" WorkUnitID="{A487FD55-4285-4EF2-A4D4-F61B31354230}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NavigationMusicStart" ID="{5FC987D5-1955-48DB-B16F-86A61CD56DE4}">
+					<ChildrenList>
+						<Action Name="" ID="{AB268E68-EC65-4653-A7B8-1470A06CC7F6}" ShortID="908967155">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM1_stems_navigation" ID="{5179C28F-C76E-49B8-9096-21E3A912A470}" WorkUnitID="{A487FD55-4285-4EF2-A4D4-F61B31354230}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ShieldsMusicStart" ID="{F544FCA3-3862-4917-8381-6761FAB7AEEE}">
+					<ChildrenList>
+						<Action Name="" ID="{24A391F2-2F9A-406B-83E8-5F355B7BBE46}" ShortID="110401452">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM1_stems_shields" ID="{0C333E74-AE92-4FDC-AFC5-CA16335F86F8}" WorkUnitID="{A487FD55-4285-4EF2-A4D4-F61B31354230}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BreakAirlock" ID="{2AF05669-FC6B-4DC4-80BB-BB54E4BD5D6F}">
+					<ChildrenList>
+						<Action Name="" ID="{897BE2CD-9433-406A-A494-E864F392BE17}" ShortID="1039637317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Broken" ID="{090FB770-F282-4CEC-88D9-8B818ACCF8A9}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BreakEngines" ID="{9C5A7CBD-9582-40B9-882F-8A482A5E7DE9}">
+					<ChildrenList>
+						<Action Name="" ID="{9046C99A-009E-4943-98EA-72712B8B2508}" ShortID="131456042">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Broken" ID="{F3D29C7B-3FBE-4CA4-B0B9-D819B4590980}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BreakHelm" ID="{91771E43-7986-4BE5-8339-FAA2D135B5CB}">
+					<ChildrenList>
+						<Action Name="" ID="{CA3410B4-74A3-4E3A-B944-0712716CA607}" ShortID="709517971">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Broken" ID="{DB4BD4C8-F974-413D-96CE-5AE4556AEA51}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BreakNavigation" ID="{246AF0CF-5DF9-4824-9875-0E705DBB9509}">
+					<ChildrenList>
+						<Action Name="" ID="{A5C1CD2E-C690-4556-9F80-1962D7933830}" ShortID="583302932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Broken" ID="{11AA01BA-36E8-4252-BC4F-FEFF0CF3AE61}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BreakShields" ID="{7DF6A5CD-7672-456B-A709-2468181A46BE}">
+					<ChildrenList>
+						<Action Name="" ID="{5AFDAB52-96CC-4958-A351-8E622676A13E}" ShortID="658775691">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Broken" ID="{BB0D005B-0E60-4BE7-827B-06A53257AC44}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FixAirlock" ID="{84D1E25F-056C-4F41-A532-354E76F9D7CA}">
+					<ChildrenList>
+						<Action Name="" ID="{B6567DA7-3E1E-4A72-A29D-53B52D6C52E4}" ShortID="742810225">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working" ID="{69136BF1-29A7-47CA-ADBA-3E79AE110D03}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FixEngines" ID="{F947131E-802F-4BDB-9461-CF157EE859C6}">
+					<ChildrenList>
+						<Action Name="" ID="{37AFF972-714F-45AB-9A62-A69B71FD244A}" ShortID="668505059">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working" ID="{9F23D17F-8E93-4B9F-9DCD-1C679BE9F316}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FixHelm" ID="{13B5B532-B4F1-40BF-BE8B-B7AA844C058E}">
+					<ChildrenList>
+						<Action Name="" ID="{B44E1184-43A6-4EFC-B579-DB26667CDAA6}" ShortID="775996762">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working" ID="{AD078539-953E-486D-875A-32842D76863A}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FixNavigation" ID="{31A84D32-B238-4BE7-9854-C64657ADA110}">
+					<ChildrenList>
+						<Action Name="" ID="{58646226-8687-4345-8A43-D6E66F9D2129}" ShortID="604875061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working" ID="{AFBC79CC-D7B0-40AF-B437-0CDC76098ED2}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FixShields" ID="{0DF3AC2C-F59A-441C-9ECF-CCDBE877848B}">
+					<ChildrenList>
+						<Action Name="" ID="{DBC2DD68-C263-4DF5-B031-32C9098664AD}" ShortID="109529632">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working" ID="{2753C42B-976A-44D6-A46D-30F7B931EDD3}" WorkUnitID="{7461D52D-FEBD-4C77-AED7-ED45BB42ABCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ConsoleEnter" ID="{D03BFA8D-D017-4F10-872C-C53C0C006BAA}">
+					<ChildrenList>
+						<Action Name="" ID="{670EDCB4-1ADF-44EA-B7FD-880A7D986291}" ShortID="747886526">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="high repeating beep" ID="{E36B925D-C66F-4999-9658-52E489BC5B6B}" WorkUnitID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ConsoleExit" ID="{84B79B47-DEEC-4C28-8E71-EFB9BFC2CB5A}">
+					<ChildrenList>
+						<Action Name="" ID="{CB12E08B-E60A-43B8-A508-D4DD1E5AA018}" ShortID="654086599">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="low repeating beep" ID="{B025A17F-8EC9-4922-A19D-DE387104AE3D}" WorkUnitID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ShipHit" ID="{0E999640-7228-4C64-868A-12768D7DE90E}">
+					<ChildrenList>
+						<Action Name="" ID="{9A4362EC-452D-4040-A18C-295EB18756C8}" ShortID="618344489">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{134534C3-7B18-481E-9E6E-6C094E550E46}" WorkUnitID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCStartMoving" ID="{1868F63B-25B3-428A-828B-C59364FC9C2B}">
+					<ChildrenList>
+						<Action Name="" ID="{DB0102B3-463C-4BB2-9BD3-AB32DE8F0EA1}" ShortID="187533873">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bubbly waddle loop" ID="{8C8FE8D1-2D68-4718-B65C-41CF6AA1C30E}" WorkUnitID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCStopMoving" ID="{05953462-5F31-4E6B-8B2B-5E6A41735CCB}">
+					<ChildrenList>
+						<Action Name="" ID="{A39EDF95-FD07-4EE5-A7A7-74076BB43CBB}" ShortID="953257220">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bubbly waddle loop" ID="{8C8FE8D1-2D68-4718-B65C-41CF6AA1C30E}" WorkUnitID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
