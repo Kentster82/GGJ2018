@@ -130,3 +130,12 @@ public class ShipController : MonoBehaviour {
         rb.drag = 0f;
     }
 }
+
+        switch (randomNum)
+        {
+            case 0:
+                shieldStationActive = false;
+                break;
+            default:
+                break;
+        }

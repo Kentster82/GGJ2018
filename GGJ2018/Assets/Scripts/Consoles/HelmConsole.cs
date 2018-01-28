@@ -16,7 +16,7 @@ public class HelmConsole : MonoBehaviour
         helmCamera = GameObject.Find("helmCamera").GetComponent<Camera>();
         UIPanel = GameObject.Find("HelmPanel");
         player = GameObject.Find("Player");
-        //UIPanel.SetActive(false);
+        UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()
@@ -28,7 +28,6 @@ public class HelmConsole : MonoBehaviour
             helmCamera.enabled = true;
 
             player.GetComponent<PlayerControl>().is_valid = false;
-            
         }
     }
 
@@ -37,7 +36,5 @@ public class HelmConsole : MonoBehaviour
         UIPanel.SetActive(false);
         helmCamera.enabled = false;
         Camera.main.enabled = true;
-
-        player.GetComponent<PlayerControl>().is_valid = true;
     }
 }

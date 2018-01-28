@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A487FD55-4285-4EF2-A4D4-F61B31354230}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A487FD55-4285-4EF2-A4D4-F61B31354230}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="BGM1" ID="{04A1F4A8-43DF-4E4A-9316-7693320D6D00}" ShortID="376700435">
+					<ChildrenList>
+						<MusicSegment Name="BGM1_stems_airlock" ID="{6234BF9F-F205-4C66-8EDE-CD712EED3C19}" ShortID="638095819">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="63235.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BGM1_stems_airlock" ID="{9887C002-8F3F-45EE-B7E8-21F436DB66BB}" ShortID="134784083">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BGM1_stems_airlock" ID="{F0C9541D-ED50-4085-BA7E-0F9DE3F6C6E0}" ShortID="694712791">
+											<Language>SFX</Language>
+											<AudioFile>BGM1\BGM1_stems_airlock.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5DF4967C-C988-4D29-B8D2-F80F8A98A9BB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1893CCC1-0E87-40E4-85E5-06BCC937D174}">
+											<ClipList>
+												<MusicClip Name="BGM1_stems_airlock" ID="{86C2E5A0-CB1D-4909-8C16-8827F988AA8D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="63235.2916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BGM1_stems_airlock" ID="{F0C9541D-ED50-4085-BA7E-0F9DE3F6C6E0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AirlockState" ID="{D54776EA-C3D7-4438-8F5E-DCED10E097F1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Working" ID="{69136BF1-29A7-47CA-ADBA-3E79AE110D03}"/>
+										<State Name="" ID="{C7676303-41DE-46A1-8B7C-82618A30111E}" ShortID="572049668"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Broken" ID="{090FB770-F282-4CEC-88D9-8B818ACCF8A9}"/>
+										<State Name="" ID="{096136F8-8AC0-4099-8F30-529D51B32019}" ShortID="363219997">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{4F27C878-AB9B-4616-BA0B-3DAA313DA97A}"/>
+								<MusicCue Name="Exit Cue" ID="{7BAF739B-AFAF-494A-85E8-CD5E6DEA1191}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="63235.2916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="BGM1_stems_engines" ID="{8DB38874-6773-40EE-AE15-0E135EEC41E6}" ShortID="997519572">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="62235.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BGM1_stems_engines" ID="{5E1A3B40-F084-4DCF-94ED-07848260CDB6}" ShortID="492153574">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BGM1_stems_engines" ID="{2953360C-8888-46CF-9DA8-330C55E7A31E}" ShortID="191415031">
+											<Language>SFX</Language>
+											<AudioFile>BGM1\BGM1_stems_engines.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{623DA615-37D4-4D02-A8E4-6F966E863BB8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EADDFD85-8A9B-4845-AAC4-69D87E836EEF}">
+											<ClipList>
+												<MusicClip Name="BGM1_stems_engines" ID="{AA2222D6-3708-4614-9E8C-3FB7802CFA58}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="62235.2916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BGM1_stems_engines" ID="{2953360C-8888-46CF-9DA8-330C55E7A31E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="EnginesState" ID="{858B3848-1BF7-4E24-A4BA-831F5282DD78}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Working" ID="{9F23D17F-8E93-4B9F-9DCD-1C679BE9F316}"/>
+										<State Name="" ID="{4419FC4F-3415-4D4C-B8C5-8097E4A5C11B}" ShortID="241873878"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Broken" ID="{F3D29C7B-3FBE-4CA4-B0B9-D819B4590980}"/>
+										<State Name="" ID="{63C9ED20-4D0C-4736-BC9D-1B2A08BCE7D4}" ShortID="834129544">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BFF679EA-0A72-48C0-A3DD-99BB5E73FA12}"/>
+								<MusicCue Name="Exit Cue" ID="{EE7F0766-0423-4CCD-A39D-DA0D1133E5B7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="62235.2916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="BGM1_stems_helm" ID="{CFC432E9-91A0-49A7-941E-BCE4C7D84BA3}" ShortID="166817197">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="65235.2916666667"/>
+								<Property Name="Tempo" Type="Real64" Value="255"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BGM1_stems_helm" ID="{842E9DFC-F31D-44F7-9C03-68F95E12FD66}" ShortID="328739112">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BGM1_stems_helm" ID="{5E35B273-11C5-45B6-BB88-2AE5F8252D40}" ShortID="769814362">
+											<Language>SFX</Language>
+											<AudioFile>BGM1\BGM1_stems_helm.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8121F98E-3EBD-4F59-A93A-8DC956F86FB0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{872F6192-53E0-4D43-9516-B4D8F6FD0D65}">
+											<ClipList>
+												<MusicClip Name="BGM1_stems_helm" ID="{AEDBA886-B379-4FBC-B5BD-DCD0C4BDDD0B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="65235.2916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BGM1_stems_helm" ID="{5E35B273-11C5-45B6-BB88-2AE5F8252D40}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="HelmState" ID="{974DF304-6AF4-47A3-9D81-55AE81ACB5F5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Broken" ID="{DB4BD4C8-F974-413D-96CE-5AE4556AEA51}"/>
+										<State Name="" ID="{5133E1BE-D5E0-4687-9AA6-DF990B393597}" ShortID="555455538">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Working" ID="{AD078539-953E-486D-875A-32842D76863A}"/>
+										<State Name="" ID="{40C66E93-80FA-477E-9F36-132731A92636}" ShortID="552165112"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{772B24B1-1727-43B2-8F62-AA57E5AF2659}"/>
+								<MusicCue Name="Exit Cue" ID="{EEDEA2AA-EF1F-48B0-998D-9320E0EB8372}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="65235.2916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="BGM1_stems_navigation" ID="{5179C28F-C76E-49B8-9096-21E3A912A470}" ShortID="316241264">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="61235.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BGM1_stems_navigation" ID="{407FA722-86B7-45DE-A072-A79698358683}" ShortID="688220662">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BGM1_stems_navigation" ID="{C2616CAA-F144-4E15-9764-EE9EADEFF7FE}" ShortID="199091524">
+											<Language>SFX</Language>
+											<AudioFile>BGM1\BGM1_stems_navigation.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7F7B7191-050E-40ED-98ED-F30B0BA5D68E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6153B40D-14EE-4D4A-8653-5E89D80FC27F}">
+											<ClipList>
+												<MusicClip Name="BGM1_stems_navigation" ID="{50D18C2F-AC7A-48D9-8E63-F38569B20AA8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="61235.2916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BGM1_stems_navigation" ID="{C2616CAA-F144-4E15-9764-EE9EADEFF7FE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="NavigationState" ID="{EDEE7485-3CC4-4491-9440-39B16BC27041}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Working" ID="{AFBC79CC-D7B0-40AF-B437-0CDC76098ED2}"/>
+										<State Name="" ID="{0F42D620-F94D-44FF-9B10-4C364A6C5B39}" ShortID="513826540"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Broken" ID="{11AA01BA-36E8-4252-BC4F-FEFF0CF3AE61}"/>
+										<State Name="" ID="{13169718-F68C-4AFE-97E1-EF565A221C11}" ShortID="642810833">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9E80042C-762B-4AFC-B15E-B3A8BD74C1E7}"/>
+								<MusicCue Name="Exit Cue" ID="{4F95FF3B-ED89-42A9-9904-A93B8B196A46}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="61235.2916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="BGM1_stems_shields" ID="{0C333E74-AE92-4FDC-AFC5-CA16335F86F8}" ShortID="148012473">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="64235.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BGM1_stems_shields" ID="{7E0706F8-F39D-4A19-990B-89DAA97EC4DB}" ShortID="479723872">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BGM1_stems_shields" ID="{9ED651D1-C3A0-41A7-862A-6BBAA4B97E52}" ShortID="677902457">
+											<Language>SFX</Language>
+											<AudioFile>BGM1\BGM1_stems_shields.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{236F9457-21DE-4B2D-B2E4-90833C20961A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4B6BF8B9-4BA8-42B6-BBAF-4FCBDAD1C949}">
+											<ClipList>
+												<MusicClip Name="BGM1_stems_shields" ID="{83FCBBC5-E386-4C30-8DF7-5480E45E8F33}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="64235.2916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BGM1_stems_shields" ID="{9ED651D1-C3A0-41A7-862A-6BBAA4B97E52}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ShieldsState" ID="{72E0EFA9-B8BB-4E01-A5C8-EA32C42CF3F2}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Working" ID="{2753C42B-976A-44D6-A46D-30F7B931EDD3}"/>
+										<State Name="" ID="{A9E21D28-45DE-4480-AB1F-373387BC788B}" ShortID="230080197"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Broken" ID="{BB0D005B-0E60-4BE7-827B-06A53257AC44}"/>
+										<State Name="" ID="{BB13D61D-0EFA-47E8-9A98-2B5B10420AB0}" ShortID="193421377">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7FACEF9C-4A1E-4F25-9035-E0B9D6892B2B}"/>
+								<MusicCue Name="Exit Cue" ID="{B4045E01-1BC3-48AC-9919-A2A130590761}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="64235.2916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
