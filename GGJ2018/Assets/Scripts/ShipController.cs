@@ -29,12 +29,35 @@ public class ShipController : MonoBehaviour {
     public Transform shipTransform;
 
     private Rigidbody2D rb;
-    
-	void Start ()
+    private GameObject statScrOverlayEBrake;
+    private GameObject statScrOverlayHelm;
+    private GameObject statScrOverlayNav;
+    private GameObject statScrOverlayManual;
+    private GameObject statScrOverlayAirlock;
+    private GameObject statScrOverlayShields;
+
+    void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
         shipTransform = this.transform;
-	}
+
+        statScrOverlayEBrake = GameObject.Find("StatScrOverlayEBrake");
+        statScrOverlayHelm = GameObject.Find("StatScrOverlayHelm");
+        statScrOverlayNav = GameObject.Find("StatScrOverlayNav");
+        statScrOverlayManual = GameObject.Find("StatScrOverlayManual");
+        statScrOverlayAirlock = GameObject.Find("StatScrOverlayAirlock");
+        statScrOverlayShields = GameObject.Find("StatScrOverlayShields");
+
+        statScrOverlayEBrake.SetActive(false);
+        statScrOverlayHelm.SetActive(false);
+        statScrOverlayNav.SetActive(false);
+        statScrOverlayManual.SetActive(false);
+        statScrOverlayAirlock.SetActive(false);
+        statScrOverlayShields.SetActive(false);
+
+        GameObject statusPanel = GameObject.Find("StatusPanel");
+        statusPanel.SetActive(false);
+    }
 
     void FixedUpdate()
     {
@@ -82,29 +105,32 @@ public class ShipController : MonoBehaviour {
         }
 
         //Damages random system based on randomNum
-        int randomNum = Random.Range(0, 6);
+        int randomNum = Random.Range(0, 5);
         switch(randomNum)
         {
             case 0:
                 helmStationActive = false;
+                statScrOverlayHelm.SetActive(true);
                 break;
             case 1:
                 navStationActive = false;
+                statScrOverlayNav.SetActive(true);
                 break;
             case 2:
-                statusStationActive = false;
+                airlockStationActive = false;
+                statScrOverlayAirlock.SetActive(true);
                 break;
             case 3:
-                airlockStationActive = false;
+                manualStationActive = false;
+                statScrOverlayManual.SetActive(true);
                 break;
             case 4:
-                manualStationActive = false;
+                eBrakeStationActive = false;
+                statScrOverlayEBrake.SetActive(true);
                 break;
             case 5:
-                eBrakeStationActive = false;
-                break;
-            case 6:
                 shieldStationActive = false;
+                statScrOverlayShields.SetActive(true);
                 break;
             default:
                 break;

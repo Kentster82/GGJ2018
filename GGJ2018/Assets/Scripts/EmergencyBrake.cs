@@ -8,7 +8,7 @@ public class EmergencyBrake : MonoBehaviour
 
     public void Awake()
     {
-        brakePanel = GameObject.Find("eBrakePanel");
+        brakePanel = GameObject.Find("EmergencyBrakePanel");
     }
     public void Start()
     {
