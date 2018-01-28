@@ -8,10 +8,15 @@ public class PlayerControl : MonoBehaviour {
     Vector3 mousePos;
     Camera c;
     public bool is_valid;
+
+	Animator anim;
+
 	void Start () {
         mousePos = new Vector3();
         c = Camera.main;
         is_valid = true;
+
+		anim = transform.Find ("Sprites").GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -22,11 +27,13 @@ public class PlayerControl : MonoBehaviour {
             transform.LookAt(mousePos);
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, 0);
 
-            if (Input.GetMouseButton(0))
-            {
-                transform.position += (-transform.position + mousePos).normalized * speed * Time.deltaTime;
-                transform.position = new Vector3(transform.position.x, transform.position.y, 0);
-            }
+			if (Input.GetMouseButton (0)) {
+				transform.position += (-transform.position + mousePos).normalized * speed * Time.deltaTime;
+				transform.position = new Vector3 (transform.position.x, transform.position.y, 0);
+				anim.SetBool ("Flappin", true);
+			} else {
+				anim.SetBool ("Flappin", false);
+			}
         }
     }
 
