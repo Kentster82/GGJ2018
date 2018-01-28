@@ -9,7 +9,7 @@ public class AirlockConsole : MonoBehaviour
 
     public float interactDistance = 2f;
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         UIPanel = GameObject.Find("AirlockPanel");
         player = GameObject.Find("Player");

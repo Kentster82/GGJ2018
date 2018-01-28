@@ -9,7 +9,7 @@ public class EngineeringConsole : MonoBehaviour
 
     public float interactDistance = 2f;
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         UIPanel = GameObject.Find("EngineeringPanel");
         player = GameObject.Find("Player");

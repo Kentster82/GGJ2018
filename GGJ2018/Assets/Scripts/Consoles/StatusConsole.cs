@@ -10,7 +10,7 @@ public class StatusConsole : MonoBehaviour
     public float interactDistance = 2f;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         UIPanel = GameObject.Find("StatusPanel");
         player = GameObject.Find("Player");
