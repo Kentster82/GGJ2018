@@ -40,15 +40,3 @@ sysinfo.txt
 
 # Vim .swp files
 *.swp
-
-# Audio program tempfiles
-*.bak
-*mptm*AutoSave*
-*.RPP-bak
-
-# Audio raw stems (they're really big WAVs)
-Raw_Stems/
-
-# Wwise
-BGM1_Dynamic/Originals/SFX/*/*.akd
-BGM1_Dynamic/.cache/
