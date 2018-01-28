@@ -78,7 +78,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1134380392343734
 GameObject:
   m_ObjectHideFlags: 1
@@ -556,7 +556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1898185877764798
 GameObject:
   m_ObjectHideFlags: 1
@@ -1276,7 +1276,7 @@ MonoBehaviour:
         m_MethodName: changePage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1515754116046600}
+          m_ObjectArgument: {fileID: 1087234798963460}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
         m_MethodName: changePage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1087234798963460}
+          m_ObjectArgument: {fileID: 1515754116046600}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
