@@ -81,7 +81,7 @@ public class ShipController : MonoBehaviour {
             // Some game over stuff
         }
 
-        //Damages random system
+        //Damages random system based on randomNum
         int randomNum = Random.Range(0, 6);
         switch(randomNum)
         {
@@ -108,7 +108,7 @@ public class ShipController : MonoBehaviour {
                 break;
             default:
                 break;
-}
+        }
     }
 
     IEnumerator eBrake()

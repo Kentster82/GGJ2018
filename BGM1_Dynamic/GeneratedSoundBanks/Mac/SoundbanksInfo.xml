@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1189781958" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGM1</ObjectPath>
+			<ShortName>BGM1</ShortName>
+			<Path>BGM1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3633860693" Name="AirlockMusicStart" ObjectPath="\Events\Default Work Unit\AirlockMusicStart"/>
+				<Event Id="3240935707" Name="BreakAirlock" ObjectPath="\Events\Default Work Unit\BreakAirlock"/>
+				<Event Id="1745692283" Name="BreakEngines" ObjectPath="\Events\Default Work Unit\BreakEngines"/>
+				<Event Id="3662416074" Name="BreakHelm" ObjectPath="\Events\Default Work Unit\BreakHelm"/>
+				<Event Id="1682081864" Name="BreakNavigation" ObjectPath="\Events\Default Work Unit\BreakNavigation"/>
+				<Event Id="3957382364" Name="BreakShields" ObjectPath="\Events\Default Work Unit\BreakShields"/>
+				<Event Id="682262605" Name="EnginesMusicStart" ObjectPath="\Events\Default Work Unit\EnginesMusicStart"/>
+				<Event Id="3491753779" Name="FixAirlock" ObjectPath="\Events\Default Work Unit\FixAirlock"/>
+				<Event Id="3611661827" Name="FixEngines" ObjectPath="\Events\Default Work Unit\FixEngines"/>
+				<Event Id="3614165602" Name="FixHelm" ObjectPath="\Events\Default Work Unit\FixHelm"/>
+				<Event Id="537538816" Name="FixNavigation" ObjectPath="\Events\Default Work Unit\FixNavigation"/>
+				<Event Id="3233625636" Name="FixShields" ObjectPath="\Events\Default Work Unit\FixShields"/>
+				<Event Id="1651135938" Name="HelmMusicStart" ObjectPath="\Events\Default Work Unit\HelmMusicStart"/>
+				<Event Id="3744199996" Name="NavigationMusicStart" ObjectPath="\Events\Default Work Unit\NavigationMusicStart"/>
+				<Event Id="707167398" Name="ShieldsMusicStart" ObjectPath="\Events\Default Work Unit\ShieldsMusicStart"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="191415031" Language="SFX">
+					<ShortName>BGM1\BGM1_stems_engines.wav</ShortName>
+					<Path>SFX\BGM1\BGM1_stems_engines_F17FB28C.wem</Path>
+				</File>
+				<File Id="199091524" Language="SFX">
+					<ShortName>BGM1\BGM1_stems_navigation.wav</ShortName>
+					<Path>SFX\BGM1\BGM1_stems_navigation_F17FB28C.wem</Path>
+				</File>
+				<File Id="677902457" Language="SFX">
+					<ShortName>BGM1\BGM1_stems_shields.wav</ShortName>
+					<Path>SFX\BGM1\BGM1_stems_shields_F17FB28C.wem</Path>
+				</File>
+				<File Id="694712791" Language="SFX">
+					<ShortName>BGM1\BGM1_stems_airlock.wav</ShortName>
+					<Path>SFX\BGM1\BGM1_stems_airlock_F17FB28C.wem</Path>
+				</File>
+				<File Id="769814362" Language="SFX">
+					<ShortName>BGM1\BGM1_stems_helm.wav</ShortName>
+					<Path>SFX\BGM1\BGM1_stems_helm_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3898083304" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundEffects</ObjectPath>
+			<ShortName>SoundEffects</ShortName>
+			<Path>SoundEffects.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3378699830" Name="ConsoleEnter" ObjectPath="\Events\Default Work Unit\ConsoleEnter"/>
+				<Event Id="3324615484" Name="ConsoleExit" ObjectPath="\Events\Default Work Unit\ConsoleExit"/>
+				<Event Id="178998712" Name="PCStartMoving" ObjectPath="\Events\Default Work Unit\PCStartMoving"/>
+				<Event Id="3432613688" Name="PCStopMoving" ObjectPath="\Events\Default Work Unit\PCStopMoving"/>
+				<Event Id="2174516238" Name="ShipHit" ObjectPath="\Events\Default Work Unit\ShipHit"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="518439923" Language="SFX">
+					<ShortName>Sounds\low repeating beep.wav</ShortName>
+					<Path>SFX\Sounds\low repeating beep_1C9C67B2.wem</Path>
+				</File>
+				<File Id="590476274" Language="SFX">
+					<ShortName>Sounds\high repeating beep.wav</ShortName>
+					<Path>SFX\Sounds\high repeating beep_1C9C67B2.wem</Path>
+				</File>
+				<File Id="638701800" Language="SFX">
+					<ShortName>Sounds\Explosion.wav</ShortName>
+					<Path>SFX\Sounds\Explosion_1C9C67B2.wem</Path>
+				</File>
+				<File Id="656805017" Language="SFX">
+					<ShortName>Sounds\bubbly waddle loop.wav</ShortName>
+					<Path>SFX\Sounds\bubbly waddle loop_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
