@@ -66,6 +66,7 @@ public class ShipController : MonoBehaviour {
 
     void damage(float damage)
     {
+
         if(shieldActive)
         {
             hull -= (damage - shieldAbsorb);
@@ -79,6 +80,35 @@ public class ShipController : MonoBehaviour {
             Debug.Log("Ded");
             // Some game over stuff
         }
+
+        //Damages random system
+        int randomNum = Random.Range(0, 6);
+        switch(randomNum)
+        {
+            case 0:
+                helmStationActive = false;
+                break;
+            case 1:
+                navStationActive = false;
+                break;
+            case 2:
+                statusStationActive = false;
+                break;
+            case 3:
+                airlockStationActive = false;
+                break;
+            case 4:
+                manualStationActive = false;
+                break;
+            case 5:
+                eBrakeStationActive = false;
+                break;
+            case 6:
+                shieldStationActive = false;
+                break;
+            default:
+                break;
+}
     }
 
     IEnumerator eBrake()
