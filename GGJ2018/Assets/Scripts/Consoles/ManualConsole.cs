@@ -14,7 +14,7 @@ public class ManualConsole : MonoBehaviour
         UIPanel = GameObject.Find("ManualPanel");
         player = GameObject.Find("Player");
 
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()

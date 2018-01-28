@@ -14,7 +14,7 @@ public class EngineeringConsole : MonoBehaviour
         UIPanel = GameObject.Find("EngineeringPanel");
         player = GameObject.Find("Player");
 
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()

@@ -14,7 +14,7 @@ public class AirlockConsole : MonoBehaviour
         UIPanel = GameObject.Find("AirlockPanel");
         player = GameObject.Find("Player");
 
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()
