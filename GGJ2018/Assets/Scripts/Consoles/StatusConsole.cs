@@ -14,7 +14,7 @@ public class StatusConsole : MonoBehaviour
     {
         UIPanel = GameObject.Find("StatusPanel");
         player = GameObject.Find("Player");
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()

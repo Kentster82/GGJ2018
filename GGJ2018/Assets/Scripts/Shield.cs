@@ -5,11 +5,17 @@ using UnityEngine;
 public class Shield : MonoBehaviour
 {
     private GameObject ship;
+    private GameObject shield;
 
     void Awake()
     {
         ship = GameObject.Find("Ship");
-        GameObject shield = GameObject.Find("ShieldPanel");
+        shield = GameObject.Find("ShieldPanel");
+        
+    }
+
+    private void Start()
+    {
         shield.SetActive(false);
     }
 

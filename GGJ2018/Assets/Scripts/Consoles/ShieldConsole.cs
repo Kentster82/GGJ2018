@@ -16,7 +16,7 @@ public class ShieldConsole : MonoBehaviour
         UIPanel = GameObject.Find("ShieldPanel");
         player = GameObject.Find("Player");
 
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()

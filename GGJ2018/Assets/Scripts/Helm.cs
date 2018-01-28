@@ -11,12 +11,17 @@ public class Helm:MonoBehaviour
     private GameObject ship;
     private Vector3 initialMousePos;
     private Text speedometer;
+    private GameObject helm;
 
     public void Awake()
     {
         ship = GameObject.Find("Ship");
         speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
-        GameObject helm = GameObject.Find("HelmPanel");
+        helm = GameObject.Find("HelmPanel");
+    }
+
+    public void Start()
+    {
         helm.SetActive(false);
     }
 

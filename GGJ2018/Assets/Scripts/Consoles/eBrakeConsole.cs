@@ -14,7 +14,7 @@ public class eBrakeConsole : MonoBehaviour
         UIPanel = GameObject.Find("eBrakePanel");
         player = GameObject.Find("Player");
 
-        UIPanel.SetActive(false);
+        //UIPanel.SetActive(false);
     }
 
     public void OnMouseOver()
