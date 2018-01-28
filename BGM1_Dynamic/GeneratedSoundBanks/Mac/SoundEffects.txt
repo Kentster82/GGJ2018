@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	178998712	PCStartMoving			\Default Work Unit\PCStartMoving	
+	2174516238	ShipHit			\Default Work Unit\ShipHit	
+	3324615484	ConsoleExit			\Default Work Unit\ConsoleExit	
+	3378699830	ConsoleEnter			\Default Work Unit\ConsoleEnter	
+	3432613688	PCStopMoving			\Default Work Unit\PCStopMoving	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	518439923	low repeating beep	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Mac\SFX\Sounds\low repeating beep_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\low repeating beep		201664
+	590476274	high repeating beep	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Mac\SFX\Sounds\high repeating beep_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\high repeating beep		201664
+	638701800	Explosion	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Mac\SFX\Sounds\Explosion_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Explosion		38854
+	656805017	bubbly waddle loop	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Mac\SFX\Sounds\bubbly waddle loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\bubbly waddle loop		200236
+
