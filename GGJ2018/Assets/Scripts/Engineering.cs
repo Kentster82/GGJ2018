@@ -5,11 +5,15 @@ using UnityEngine;
 public class Engineering : MonoBehaviour
 {
     private GameObject ship;
+    private GameObject eng;
 
     public void Awake()
     {
         ship = GameObject.Find("Ship");
-        GameObject eng = GameObject.Find("EngineeringPanel");
+        eng = GameObject.Find("EngineeringPanel");
+    }
+    public void Start()
+    {
         eng.SetActive(false);
     }
 
