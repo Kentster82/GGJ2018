@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3240935707	BreakAirlock			\Default Work Unit\BreakAirlock	
+	3491753779	FixAirlock			\Default Work Unit\FixAirlock	
+	3633860693	AirlockMusicStart			\Default Work Unit\AirlockMusicStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3693547105	AirlockState			\Default Work Unit\AirlockState	
+
+State	ID	Name	State Group			Notes
+	231230354	Broken	AirlockState			
+	748895195	None	AirlockState			
+	1992928594	Working	AirlockState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	363219997	Broken	AirlockState	\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_airlock		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	694712791	BGM1_stems_airlock	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Linux\SFX\BGM1\BGM1_stems_airlock_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_airlock\BGM1_stems_airlock		12141240
+

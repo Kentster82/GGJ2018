@@ -1,44 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="601859981">
+<IncrementalBankBuild Version="6" Flags="878078161">
 	<Platform GUID="{B20761FC-B2C3-4B29-B9E7-795A1B23F578}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Airlock" Hash="3536371755" Timestamp="1517108174"/>
 				<File Name="BGM1" Hash="1481529563" Timestamp="1517125590"/>
-				<File Name="Init" Hash="3954666164" Timestamp="1517125591"/>
-				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125590"/>
+				<File Name="Engines" Hash="1382655967" Timestamp="1517108174"/>
+				<File Name="Helm" Hash="529878344" Timestamp="1517108174"/>
+				<File Name="Init" Hash="3954666164" Timestamp="1517108175"/>
+				<File Name="Navigation" Hash="423100234" Timestamp="1517108175"/>
+				<File Name="Shields" Hash="224499522" Timestamp="1517108175"/>
+				<File Name="SoundEffects" Hash="596858881" Timestamp="1517108174"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1310626818" Timestamp="1517125591"/>
+				<File Name="" Hash="240133881" Timestamp="1517108175"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{210F01F2-CCE9-4E73-B3F7-178B8B8D6DB8}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Airlock" Hash="3536371755" Timestamp="1517108186"/>
 				<File Name="BGM1" Hash="1481529563" Timestamp="1517125593"/>
-				<File Name="Init" Hash="2844690623" Timestamp="1517125594"/>
-				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125593"/>
+				<File Name="Engines" Hash="1382655967" Timestamp="1517108186"/>
+				<File Name="Helm" Hash="529878344" Timestamp="1517108186"/>
+				<File Name="Init" Hash="2844690623" Timestamp="1517108187"/>
+				<File Name="Navigation" Hash="423100234" Timestamp="1517108186"/>
+				<File Name="Shields" Hash="224499522" Timestamp="1517108187"/>
+				<File Name="SoundEffects" Hash="596858881" Timestamp="1517108186"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2732982232" Timestamp="1517125594"/>
+				<File Name="" Hash="2771086519" Timestamp="1517108187"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{8AB9CABA-C01F-4F6E-B367-E6373504BEA3}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Airlock" Hash="3536371755" Timestamp="1517108163"/>
 				<File Name="BGM1" Hash="1481529563" Timestamp="1517125585"/>
-				<File Name="Init" Hash="700395651" Timestamp="1517125585"/>
-				<File Name="SoundEffects" Hash="1026018079" Timestamp="1517125585"/>
+				<File Name="Engines" Hash="1382655967" Timestamp="1517108163"/>
+				<File Name="Helm" Hash="529878344" Timestamp="1517108163"/>
+				<File Name="Init" Hash="700395651" Timestamp="1517108165"/>
+				<File Name="Navigation" Hash="423100234" Timestamp="1517108164"/>
+				<File Name="Shields" Hash="224499522" Timestamp="1517108164"/>
+				<File Name="SoundEffects" Hash="596858881" Timestamp="1517108163"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="227597797" Timestamp="1517125585"/>
+				<File Name="" Hash="2861143790" Timestamp="1517108165"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

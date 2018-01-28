@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	707167398	ShieldsMusicStart			\Default Work Unit\ShieldsMusicStart	
+	3233625636	FixShields			\Default Work Unit\FixShields	
+	3957382364	BreakShields			\Default Work Unit\BreakShields	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2369853672	ShieldsState			\Default Work Unit\ShieldsState	
+
+State	ID	Name	State Group			Notes
+	231230354	Broken	ShieldsState			
+	748895195	None	ShieldsState			
+	1992928594	Working	ShieldsState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	193421377	Broken	ShieldsState	\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_shields		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	677902457	BGM1_stems_shields	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Windows\SFX\BGM1\BGM1_stems_shields_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_shields\BGM1_stems_shields		12333240
+

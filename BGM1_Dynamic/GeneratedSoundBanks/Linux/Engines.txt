@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	682262605	EnginesMusicStart			\Default Work Unit\EnginesMusicStart	
+	1745692283	BreakEngines			\Default Work Unit\BreakEngines	
+	3611661827	FixEngines			\Default Work Unit\FixEngines	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3180446217	EnginesState			\Default Work Unit\EnginesState	
+
+State	ID	Name	State Group			Notes
+	231230354	Broken	EnginesState			
+	748895195	None	EnginesState			
+	1992928594	Working	EnginesState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	834129544	Broken	EnginesState	\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_engines		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	191415031	BGM1_stems_engines	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Linux\SFX\BGM1\BGM1_stems_engines_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_engines\BGM1_stems_engines		11949240
+

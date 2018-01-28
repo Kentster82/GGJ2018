@@ -35,6 +35,51 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Airlock" ID="{440C041A-4501-4A48-85B8-F36AA8747905}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BreakAirlock" ID="{2AF05669-FC6B-4DC4-80BB-BB54E4BD5D6F}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AirlockMusicStart" ID="{CC07296C-B1FF-4F06-A5A3-CC8FE9FC9FF4}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FixAirlock" ID="{84D1E25F-056C-4F41-A532-354E76F9D7CA}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Engines" ID="{3FE0E8D0-2B5C-4F83-803F-B2DBE929502F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BreakEngines" ID="{9C5A7CBD-9582-40B9-882F-8A482A5E7DE9}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EnginesMusicStart" ID="{C42C172E-1A14-461D-9B5D-908ED2E9170E}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FixEngines" ID="{F947131E-802F-4BDB-9461-CF157EE859C6}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Helm" ID="{F42C9F16-3A64-4500-B393-98E523C8CA67}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FixHelm" ID="{13B5B532-B4F1-40BF-BE8B-B7AA844C058E}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HelmMusicStart" ID="{49155390-AD85-4BE2-97FA-99594FDA3B41}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BreakHelm" ID="{91771E43-7986-4BE5-8339-FAA2D135B5CB}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Navigation" ID="{04579870-CC1B-413F-8B41-9B035FD36DD6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BreakNavigation" ID="{246AF0CF-5DF9-4824-9875-0E705DBB9509}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="NavigationMusicStart" ID="{5FC987D5-1955-48DB-B16F-86A61CD56DE4}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FixNavigation" ID="{31A84D32-B238-4BE7-9854-C64657ADA110}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Shields" ID="{4603C28E-E30C-42FD-810C-190D40E69696}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FixShields" ID="{0DF3AC2C-F59A-441C-9ECF-CCDBE877848B}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BreakShields" ID="{7DF6A5CD-7672-456B-A709-2468181A46BE}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ShieldsMusicStart" ID="{F544FCA3-3862-4917-8381-6761FAB7AEEE}" WorkUnitID="{76FCE4DA-58DA-4DEE-BB31-8E2923D0BF3D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

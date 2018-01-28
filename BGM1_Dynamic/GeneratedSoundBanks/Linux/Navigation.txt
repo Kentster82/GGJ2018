@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	537538816	FixNavigation			\Default Work Unit\FixNavigation	
+	1682081864	BreakNavigation			\Default Work Unit\BreakNavigation	
+	3744199996	NavigationMusicStart			\Default Work Unit\NavigationMusicStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3426717734	NavigationState			\Default Work Unit\NavigationState	
+
+State	ID	Name	State Group			Notes
+	231230354	Broken	NavigationState			
+	748895195	None	NavigationState			
+	1992928594	Working	NavigationState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	642810833	Broken	NavigationState	\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_navigation		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	199091524	BGM1_stems_navigation	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Linux\SFX\BGM1\BGM1_stems_navigation_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_navigation\BGM1_stems_navigation		11757240
+

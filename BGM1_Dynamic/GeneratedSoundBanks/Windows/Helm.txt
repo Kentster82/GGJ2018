@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1651135938	HelmMusicStart			\Default Work Unit\HelmMusicStart	
+	3614165602	FixHelm			\Default Work Unit\FixHelm	
+	3662416074	BreakHelm			\Default Work Unit\BreakHelm	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	908130836	HelmState			\Default Work Unit\HelmState	
+
+State	ID	Name	State Group			Notes
+	231230354	Broken	HelmState			
+	748895195	None	HelmState			
+	1992928594	Working	HelmState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	555455538	Broken	HelmState	\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_helm		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	769814362	BGM1_stems_helm	C:\Users\Vincent\Desktop\GGJ2018\BGM1_Dynamic\.cache\Windows\SFX\BGM1\BGM1_stems_helm_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\BGM1\BGM1_stems_helm\BGM1_stems_helm		12525240
+
