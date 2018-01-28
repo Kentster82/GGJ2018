@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0DEBAB53-8747-45CD-96F2-D7F7970AD5D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Sounds" ID="{8C6F7249-9CE2-4D97-9658-703C4D8E2577}" ShortID="500846318">
+					<ChildrenList>
+						<Sound Name="bubbly waddle loop" ID="{8C8FE8D1-2D68-4718-B65C-41CF6AA1C30E}" ShortID="1010995038">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bubbly waddle loop" ID="{90A4A309-FE1D-4B21-9B81-603F464D6E96}" ShortID="656805017">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\bubbly waddle loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bubbly waddle loop" ID="{90A4A309-FE1D-4B21-9B81-603F464D6E96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="engine hum looping" ID="{93971C17-1501-46F7-9230-6719A6ECCB3F}" ShortID="965902101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="engine hum looping" ID="{926F60AA-5FA7-4B39-ABA6-1933738F489D}" ShortID="884452366">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\engine hum looping.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="engine hum looping" ID="{926F60AA-5FA7-4B39-ABA6-1933738F489D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="engine hum unlooped" ID="{138233A3-C80D-4337-8171-F139B19E7610}" ShortID="458887944">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="engine hum unlooped" ID="{B9FAFC80-62ED-4BED-9724-5C6D7275A9DF}" ShortID="72443091">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\engine hum unlooped.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="engine hum unlooped" ID="{B9FAFC80-62ED-4BED-9724-5C6D7275A9DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="engine hum" ID="{23024BC4-4A9C-4CAF-835C-CF1D3624561B}" ShortID="1055017752">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="engine hum" ID="{607D4972-D9C6-4AD0-935E-6E10158476E3}" ShortID="528630967">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\engine hum.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="engine hum" ID="{607D4972-D9C6-4AD0-935E-6E10158476E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Explosion" ID="{134534C3-7B18-481E-9E6E-6C094E550E46}" ShortID="136729099">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosion" ID="{58F201A4-89F1-4555-B798-6FFBA478DEC0}" ShortID="638701800">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\Explosion.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosion" ID="{58F201A4-89F1-4555-B798-6FFBA478DEC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="high repeating beep" ID="{E36B925D-C66F-4999-9658-52E489BC5B6B}" ShortID="433762336">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="high repeating beep" ID="{D53C0F98-158E-481B-8EEC-3485AB553042}" ShortID="590476274">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\high repeating beep.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="high repeating beep" ID="{D53C0F98-158E-481B-8EEC-3485AB553042}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="low repeating beep" ID="{B025A17F-8EC9-4922-A19D-DE387104AE3D}" ShortID="168078339">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D45130B4-6295-4BF4-8C30-6536E35612E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA57209E-5049-423B-B508-E5C5708360BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="low repeating beep" ID="{0F706404-6D82-4194-A64C-001ABB666F96}" ShortID="518439923">
+									<Language>SFX</Language>
+									<AudioFile>Sounds\low repeating beep.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="low repeating beep" ID="{0F706404-6D82-4194-A64C-001ABB666F96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
